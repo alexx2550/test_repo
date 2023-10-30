@@ -1,6 +1,10 @@
-def my_func():
-    a = 10
-    b = 20
+def first_func(a, b):
 
     return a ** b
 
+first_func(5, 8)
+
+def second_func(c, d):
+    return c + d
+
+second_func(10, 963)
